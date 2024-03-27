@@ -1,0 +1,55 @@
+.rooms__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.rooms__list {
+  list-style: none;
+  text-transform: uppercase;
+}
+.rooms__item {
+  display: inline-block;
+  position: relative;
+  max-width: calc(50% - 20px);
+  font-size: 70px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 20px 20px 0;
+}
+
+.rooms__item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.rooms__link {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 710px; */
+  display: inline-block;
+  padding: 103px;
+  width: 100%;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+.rooms__item__link span {
+  display: block;
+}
+
+.rooms__item_80 {
+  background-image: url(../img/rooms/80-vibes.jpg);
+}
+.rooms__item_sw {
+  background-image: url(../img/rooms/star-wars.jpg);
+}
+.rooms__item_ww {
+  background-image: url(../img/rooms/wild-west.jpg);
+}
+.rooms__item_neon {
+  background-image: url(../img/rooms/neon-style.jpg);
+}
