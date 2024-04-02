@@ -67,29 +67,24 @@
   height: 27px;
 }
 
-.booking__services {
+.booking__select {
+  padding: 12px 20px;
+}
+
+.datatime {
   display: flex;
   justify-content: space-around;
 }
 
-.booking__services_console {
-  display: flex;
-  flex-direction: column;
+.datatime__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 114%;
+  color: #fff;
 }
-
-.booking__services_console input {
-  display: inline-block;
-}
-
-.booking__datatime {
-  display: flex;
-  justify-content: space-between;
-}
-
-.booking__wrap {
-  display: flex;
-  flex-direction: row;
-  flex-basis: 32%;
+.datatime__input {
+  width: 280px;
+  height: 52px;
 }
 
 .booking__btn {

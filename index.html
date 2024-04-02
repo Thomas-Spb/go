@@ -204,28 +204,48 @@
                         </fieldset>
                     </fieldset>
 
-                    <fieldset class="booking__fieldset booking__datatime">
+                    <fieldset class="booking__fieldset datatime">
                         <legend class="booking__legend">Выберите дату и время</legend>
 
                         <div class="booking__wrap">
-
-                            <input type="date" id="booking_date" name="date" required placeholder="Дата">
-                            <input type="time" id="booking_time" name="time" required>
-                            <input type="number" id="booking_qty" name="book_qty" required>
+                            <select class="booking__select" name="date">
+                                <option>Дата</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                            <select class="booking__select" name="time">
+                                <option>Время</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                            <select class="booking__select" name="count">
+                                <option>Сколько человек</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
                         </div>
-                        <div class="booking__contact">
 
-
-                            <label class="booking__label" for="booking_name">Имя</label>
-                            <input type="text" id="booking_name" name="name" required>
-                            <label class="booking__label" for="booking_surname">Фамилия</label>
-                            <input type="text" id="booking_surname" name="surname" required>
-                            <label class="booking__label" for="booking_phone">Телефон</label>
-                            <input type="tel" id="booking_phone" name="phone" required>
-                            <label class="booking__label" for="booking_email">E-mail</label>
-                            <input type="text" id="booking_email" name="email">
+                        <div class="booking__fio">
+                            <label class="datatime__text" for="booking_name">Имя</label>
+                            <input class="datatime__input" type=" text" id="booking_name" name="name" required>
+                            <label class="datatime__text" for="booking_surname">Фамилия</label>
+                            <input class="datatime__input" type=" text" id="booking_surname" name="surname" required>
 
                         </div>
+
+                        <div class="booking__contacts">
+                            <label class="datatime__text" for="booking_phone">Телефон</label>
+                            <input class="datatime__input" type=" tel" id="booking_phone" name="phone" required>
+                            <label class="datatime__text" for="booking_email">E-mail</label>
+                            <input class="datatime__input" type="text" id="booking_email" name="email">
+                        </div>
+
                     </fieldset>
 
                     <button class="booking__btn" formtarget="_blank">Забронировать</button>
@@ -401,39 +421,8 @@
     </footer>
 
 
-    <fieldset class="booking__fieldset booking__services">
-        <legend class="booking__legend">Собери набор развлечений</legend>
 
-        <fieldset class="booking__fieldset booking__services_console">
-            <legend class="booking__legend">Приставка:</legend>
-            <input type="radio" id="plaform_ps" name="platform" value="playstation" />
-            <label for="plaform_ps">Playstation</label>
-            <input type="radio" id="platform_sega" name="platform" value="sega" />
-            <label for="platform_sega">Sega Mega Drive</label>
-            <input type="radio" id="platform_xbox" name="platform" value="xbox" />
-            <label for="platform_xbox">X-box One S</label>
-            <input class="" type="radio" id="platform_dendy" name="platform" value="dendy" />
-            <label for="platform_dendy">Dendy</label>
-        </fieldset>
-        <fieldset class="booking__fieldset">
-            <legend class="booking__legend">Настольные игры:</legend>
-            <input type="checkbox" id="board_jenga" name="board_games" value="jenga" />
-            <label class="booking__label" for="board_jenga">Jenga</label>
-            <input type="checkbox" id="board_monopoly" name="board_games" value="monopoly" />
-            <label class="booking__label" for="board_monopoly">Monopoly</label>
-            <input type="checkbox" id="board_manchkin" name="board_games" value="manchkin" />
-            <label class="booking__label" for="board_manchkin">Манчкин</label>
-            <input type="checkbox" id="board_alias" name="board_games" value="alias" />
-            <label class="booking__label" for="board_alias">Alias</label>
-        </fieldset>
-        <fieldset class="booking__fieldset">
-            <legend class="booking__legend">Дополнительно:</legend>
-            <input type="checkbox" id="service_karaoke" name="extra_service" value="karaoke" />
-            <label class="booking__label" for="service_karaoke">Караоке</label>
-            <input type="checkbox" id="service_vr" name="extra_service" value="VR" />
-            <label class="booking__label" for="service_vr">VR</label>
-        </fieldset>
-    </fieldset>
+
 </body>
 
 </html>
