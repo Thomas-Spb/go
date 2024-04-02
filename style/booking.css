@@ -75,7 +75,10 @@
 .booking__services_console {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+}
+
+.booking__services_console input {
+  display: inline-block;
 }
 
 .booking__datatime {
@@ -86,6 +89,7 @@
 .booking__wrap {
   display: flex;
   flex-direction: row;
+  flex-basis: 32%;
 }
 
 .booking__btn {
