@@ -1,8 +1,11 @@
 @import './normalize';
 @import './global.css';
 /* @import './style.css'; */
+@import './header.css';
+@import './navigation.css';
 @import './faq.css';
 @import './game.css';
+@import './services.css';
 @import './rooms.css';
 @import './booking.css';
 @import './about.css';

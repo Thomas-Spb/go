@@ -1,0 +1,30 @@
+.services__title {
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 880px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  margin: 0 auto 40px;
+}
+
+.services__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+}
+
+.services__text {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  max-width: 280px;
+  position: absolute;
+  bottom: 15px;
+  left: 40px;
+}
+
+.services__wrap {
+  position: relative;
+}

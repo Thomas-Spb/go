@@ -1,10 +1,13 @@
 .footer {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
+  background: linear-gradient(180deg, #1b1a1b 0%, #370a37 100%);
 }
 
 .contacts {
   margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .contacts__title {
@@ -68,4 +71,15 @@
 .contacts__text_mail::before {
   content: '';
   background-image: url('../img/svg/envelope.svg');
+}
+
+.footer__designer {
+  text-align: right;
+}
+
+.footer__copyright,
+.footer__designer {
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 3px;
 }

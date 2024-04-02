@@ -1,7 +1,102 @@
+.booking {
+  padding: 80px 0;
+  background: #440f51;
+}
+
 .booking__title {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 40px;
   font-weight: 700;
-  margin-bottom: 50px;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.booking__legend {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 117%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.booking__fieldset {
+  font-size: 22px;
+  line-height: normal;
+  margin-bottom: 60px;
+  border: none;
+}
+
+.booking__fieldset:last-child {
+  margin-bottom: 0;
+}
+
+.booking__fieldset_rooms {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.booking__label {
+  display: flex;
+  align-items: center;
+}
+
+.booking__label_room {
+  display: flex;
+  justify-self: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 133%;
+  text-transform: uppercase;
+  color: #000;
+  border-radius: 8px;
+  background: #fff;
+  padding: 8px 15px;
+}
+
+.booking__input__room {
+  display: none;
+}
+
+.booking__input[type='radio'],
+.booking__input[type='checkbox'] {
+  margin-right: 12px;
+  width: 27px;
+  height: 27px;
+}
+
+.booking__services {
+  display: flex;
+  justify-content: space-around;
+}
+
+.booking__services_console {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.booking__datatime {
+  display: flex;
+  justify-content: space-between;
+}
+
+.booking__wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.booking__btn {
+  border-radius: 10px;
+  width: 300px;
+  height: 60px;
+  background: #fff;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 127%;
+  text-transform: uppercase;
+  color: #6c0287;
+  left: auto;
 }

@@ -1,0 +1,25 @@
+.header {
+  text-transform: uppercase;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  fill: #fff;
+}
+
+.header__btn {
+  border: 3px solid #cd06ff;
+  border-radius: 10px;
+  width: 280px;
+  height: 55px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 136%;
+  text-transform: uppercase;
+  color: #fff;
+}
