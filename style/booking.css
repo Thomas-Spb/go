@@ -1,4 +1,5 @@
 .booking {
+  display: flex;
   padding: 80px 0;
   background: #440f51;
 }
@@ -33,7 +34,7 @@
 
 .booking__fieldset_rooms {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 20px;
   align-items: center;
 }
@@ -67,7 +68,16 @@
   height: 27px;
 }
 
+.booking__services {
+  display: flex;
+  justify-content: space-between;
+}
+
 .booking__select {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #211e1e;
   padding: 12px 20px;
 }
 
@@ -97,5 +107,5 @@
   line-height: 127%;
   text-transform: uppercase;
   color: #6c0287;
-  left: auto;
+  align-self: center;
 }
