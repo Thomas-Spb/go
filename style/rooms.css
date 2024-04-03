@@ -9,6 +9,9 @@
 .rooms__list {
   list-style: none;
   text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .rooms__item {
   display: inline-block;
@@ -18,7 +21,6 @@
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 0 20px 20px 0;
 }
 
 .rooms__item:nth-child(2n) {
