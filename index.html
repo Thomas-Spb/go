@@ -149,94 +149,100 @@
                         <legend class="booking__legend">Выбери зал</legend>
                         <input class="booking__input__room" type="radio" id="room_80" name="room" value="room_80">
                         <label class="booking__label booking__label_room" for="room_80">80's vibes</label>
-                        <input class="booking__input__room" type="radio" id="room_starwars" name="room" value="star_wars">
+                        <input class="booking__input__room" type="radio" id="room_starwars" name="room"
+                            value="star_wars">
                         <label class="booking__label booking__label_room" for="room_starwars">star wars</label>
-                        <input class="booking__input__room" type="radio" id="room_wildwest" name="room" value="wild_west">
+                        <input class="booking__input__room" type="radio" id="room_wildwest" name="room"
+                            value="wild_west">
                         <label class="booking__label booking__label_room" for="room_wildwest">wild west</label>
                         <input class="booking__input__room" type="radio" id="room_neon" name="room" value="neon_style">
                         <label class="booking__label booking__label_room" for="room_neon">neon style</label>
                     </fieldset>
+                    <div class="booking__container">
+                        <fieldset class="booking__fieldset booking__services">
+                            <legend class="booking__legend">Собери набор развлечений</legend>
 
-                    <fieldset class="booking__fieldset booking__services">
-                        <legend class="booking__legend">Собери набор развлечений</legend>
+                            <fieldset class="booking__fieldset booking__services-console">
+                                <legend class="booking__legend">Приставка:</legend>
 
-                        <fieldset class="booking__fieldset booking__services_console">
-                            <legend class="booking__legend">Приставка:</legend>
+                                <label class="booking__label" for="plaform_ps">
+                                    <input class="booking__input" type="radio" id="plaform_ps" name="platform"
+                                        value="playstation" />Playstation</label>
 
-                            <label class="booking__label" for="plaform_ps">
-                                <input class="booking__input" type="radio" id="plaform_ps" name="platform"
-                                    value="playstation" />Playstation</label>
+                                <label class="booking__label" for="platform_sega"><input class="booking__input"
+                                        type="radio" id="platform_sega" name="platform" value="sega" />Sega Mega
+                                    Drive</label>
 
-                            <label class="booking__label" for="platform_sega"><input class="booking__input" type="radio"
-                                    id="platform_sega" name="platform" value="sega" />Sega Mega Drive</label
-                                class="booking__label">
+                                <label class="booking__label" for="platform_xbox"><input class="booking__input"
+                                        type="radio" id="platform_xbox" name="platform" value="xbox" />X-box One
+                                    S</label>
 
-                            <label class="booking__label" for="platform_xbox"><input class="booking__input" type="radio"
-                                    id="platform_xbox" name="platform" value="xbox" />X-box One S</label>
+                                <label class="booking__label" for="platform_dendy"><input class="booking__input"
+                                        type="radio" id="platform_dendy" name="platform" value="dendy" />Dendy</label>
+                            </fieldset>
+                            <fieldset class="booking__fieldset">
+                                <legend class="booking__legend">Настольные игры:</legend>
 
-                            <label class="booking__label" for="platform_dendy"><input class="booking__input"
-                                    type="radio" id="platform_dendy" name="platform" value="dendy" />Dendy</label>
+                                <label class="booking__label" for="board_jenga"><input class="booking__input"
+                                        type="checkbox" id="board_jenga" name="board_games"
+                                        value="jenga" />Jenga</label>
+
+                                <label class="booking__label" for="board_monopoly"><input class="booking__input"
+                                        type="checkbox" id="board_monopoly" name="board_games"
+                                        value="monopoly" />Monopoly</label>
+
+                                <label class="booking__label" for="board_manchkin"><input class="booking__input"
+                                        type="checkbox" id="board_manchkin" name="board_games"
+                                        value="manchkin" />Манчкин</label>
+
+                                <label class="booking__label" for="board_alias"><input class="booking__input"
+                                        type="checkbox" id="board_alias" name="board_games"
+                                        value="alias" />Alias</label>
+                            </fieldset>
+                            <fieldset class="booking__fieldset">
+                                <legend class="booking__legend">Дополнительно:</legend>
+
+                                <label class="booking__label" for="service_karaoke"><input class="booking__input"
+                                        type="checkbox" id="service_karaoke" name="extra_service"
+                                        value="karaoke" />Караоке</label>
+
+                                <label class="booking__label" for="service_vr"><input class="booking__input"
+                                        type="checkbox" id="service_vr" name="extra_service" value="VR" />VR</label>
+                            </fieldset>
                         </fieldset>
-                        <fieldset class="booking__fieldset">
-                            <legend class="booking__legend">Настольные игры:</legend>
 
-                            <label class="booking__label" for="board_jenga"><input class="booking__input"
-                                    type="checkbox" id="board_jenga" name="board_games" value="jenga" />Jenga</label>
+                        <fieldset class="booking__fieldset datatime">
+                            <legend class="booking__legend">Выберите дату и время</legend>
 
-                            <label class="booking__label" for="board_monopoly"><input class="booking__input"
-                                    type="checkbox" id="board_monopoly" name="board_games"
-                                    value="monopoly" />Monopoly</label>
+                            <div class="booking__wrap">
 
-                            <label class="booking__label" for="board_manchkin"><input class="booking__input"
-                                    type="checkbox" id="board_manchkin" name="board_games"
-                                    value="manchkin" />Манчкин</label>
+                                <input class="booking__date" type="date" id="booking_date" name="date" required>
 
-                            <label class="booking__label" for="board_alias"><input class="booking__input"
-                                    type="checkbox" id="board_alias" name="board_games" value="alias" />Alias</label>
+
+                                <input class="booking__time" type="time" id="booking_time" name="time" required>
+
+                                <input class="booking__qty" type="number" id="booking_qty" name="book_qty" required>
+                            </div>
+
+                            <div class="booking__fio">
+                                <label class="datatime__text" for="booking_name">Имя</label>
+                                <input class="datatime__input" type="text" id="booking_name" name="name" required>
+                                <label class="datatime__text" for="booking_surname">Фамилия</label>
+                                <input class="datatime__input" type="text" id="booking_surname" name="surname" required>
+
+                            </div>
+
+                            <div class="booking__contacts">
+                                <label class="datatime__text" for="booking_phone">Телефон</label>
+                                <input class="datatime__input" type="tel" id="booking_phone" name="phone" required>
+                                <label class="datatime__text" for="booking_email">E-mail</label>
+                                <input class="datatime__input" type="text" id="booking_email" name="email">
+                            </div>
+
                         </fieldset>
-                        <fieldset class="booking__fieldset">
-                            <legend class="booking__legend">Дополнительно:</legend>
 
-                            <label class="booking__label" for="service_karaoke"><input class="booking__input"
-                                    type="checkbox" id="service_karaoke" name="extra_service"
-                                    value="karaoke" />Караоке</label>
-
-                            <label class="booking__label" for="service_vr"><input class="booking__input" type="checkbox"
-                                    id="service_vr" name="extra_service" value="VR" />VR</label>
-                        </fieldset>
-                    </fieldset>
-
-                    <legend class="booking__legend">Выберите дату и время</legend>
-                    <fieldset class="booking__fieldset datatime">
-
-                        <div class="booking__wrap">
-
-                            <input class="booking__date" type="date" id="booking_date" name="date" required>
-
-
-                            <input class="booking__time" type="time" id="booking_time" name="time" required>
-
-                            <input class="booking__qty" type="number" id="booking_qty" name="book_qty" required>
-                        </div>
-
-                        <div class="booking__fio">
-                            <label class="datatime__text" for="booking_name">Имя</label>
-                            <input class="datatime__input" type=" text" id="booking_name" name="name" required>
-                            <label class="datatime__text" for="booking_surname">Фамилия</label>
-                            <input class="datatime__input" type=" text" id="booking_surname" name="surname" required>
-
-                        </div>
-
-                        <div class="booking__contacts">
-                            <label class="datatime__text" for="booking_phone">Телефон</label>
-                            <input class="datatime__input" type=" tel" id="booking_phone" name="phone" required>
-                            <label class="datatime__text" for="booking_email">E-mail</label>
-                            <input class="datatime__input" type="text" id="booking_email" name="email">
-                        </div>
-
-                    </fieldset>
-
-                    <button class="booking__btn" formtarget="_blank">Забронировать</button>
+                        <button class="booking__btn" formtarget="_blank">Забронировать</button>
+                    </div>
                 </form>
             </div>
         </section>
@@ -341,7 +347,7 @@
     </main>
     <footer class="footer">
         <div class="container">
-            <h2 class="contacts__title">Контакты</h2>
+            <h2 class="footer__title">Контакты</h2>
             <div class="contacts" id="contacts">
                 <div class="contacts__wrap">
                     <address class="contacts__wrapper">
