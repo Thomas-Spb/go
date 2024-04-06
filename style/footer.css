@@ -74,6 +74,19 @@
   background-image: url('../img/svg/envelope.svg');
 }
 
+.contacts__icon:hover {
+  color: #eadeed;
+}
+
+.contacts__icon:focus {
+  color: #eadeed;
+  outline: 1px solid #cd06ff;
+}
+
+.contacts__icon:active {
+  color: #cd06ff;
+}
+
 .footer__designer {
   text-align: right;
 }

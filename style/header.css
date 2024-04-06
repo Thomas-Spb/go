@@ -23,4 +23,16 @@
   line-height: 136%;
   text-transform: uppercase;
   color: #fff;
+  outline: none;
+}
+
+.header__btn:hover,
+.header__btn:focus {
+  border: 3px solid #6c0287;
+  background: #6c0287;
+}
+
+.header__btn:active {
+  border: 1px solid #000;
+  background: #640aa3;
 }

@@ -71,6 +71,15 @@
   text-transform: uppercase;
   color: #fff;
   box-shadow: 0px 0px 12px 5px rgba(108, 2, 135, 0.6);
+  outline: none;
+}
+
+.game__btn:hover,
+.game__btn:focus {
+  background: #840aa3;
+}
+.game__btn:active {
+  background: #640aa3;
 }
 
 .game__btn-down {
@@ -84,4 +93,17 @@
   left: 50%;
   transform: translateY(-30%);
   z-index: 13;
+}
+
+.game__btn-down:hover {
+  background-image: url(../img/down-hover.svg);
+}
+
+.game__btn-down:focus {
+  outline: 1px solid #cd06ff;
+}
+
+.game__btn-down:active {
+  background-image: url(../img/down-active.svg);
+  outline: none;
 }

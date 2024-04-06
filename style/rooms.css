@@ -13,10 +13,12 @@
   flex-wrap: wrap;
   gap: 20px;
 }
+
 .rooms__item {
   display: inline-block;
   position: relative;
-  max-width: calc(50% - 20px);
+  /* max-width: calc(50% - 20px); */
+  width: calc(50% - 10px);
   font-size: 70px;
   text-align: center;
   background-size: cover;
@@ -39,7 +41,8 @@
   font-weight: 700;
   text-decoration: none;
 }
-.rooms__item__link span {
+
+.rooms__sublink {
   display: block;
 }
 

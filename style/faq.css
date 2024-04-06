@@ -40,9 +40,25 @@
 }
 
 .faq__item:nth-child(1n)::after {
-  content: url(/img/faq/open-purple.svg);
+  content: url(/img/faq/p.svg);
+}
+
+.faq__item:nth-child(1n):hover::after {
+  content: url(/img/faq/p-hover.svg);
+}
+
+.faq__item:nth-child(1n):active::after {
+  content: url(/img/faq/p-active.svg);
 }
 
 .faq__item:nth-child(2n)::after {
-  content: url(/img/faq/open.svg);
+  content: url(/img/faq/w.svg);
+}
+
+.faq__item:nth-child(2n):hover::after {
+  content: url(/img/faq/w-hover.svg);
+}
+
+.faq__item:nth-child(2n):active::after {
+  content: url(/img/faq/w-active.svg);
 }
