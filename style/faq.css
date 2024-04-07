@@ -41,6 +41,7 @@
 
 .faq__item:nth-child(1n)::after {
   content: url(/img/faq/p.svg);
+  transition: content 0.2s ease;
 }
 
 .faq__item:nth-child(1n):hover::after {
@@ -53,6 +54,7 @@
 
 .faq__item:nth-child(2n)::after {
   content: url(/img/faq/w.svg);
+  transition: content 0.2s ease;
 }
 
 .faq__item:nth-child(2n):hover::after {

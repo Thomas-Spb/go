@@ -24,6 +24,7 @@
   text-transform: uppercase;
   color: #fff;
   outline: none;
+  transition: all 0.3s linear;
 }
 
 .header__btn:hover,

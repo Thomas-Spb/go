@@ -67,6 +67,7 @@
   background: #fff;
   padding: 8px 15px;
   border: 3px solid transparent;
+  transition: all 0.4s;
 }
 
 .booking__label_room:hover {
@@ -182,6 +183,7 @@
   text-transform: uppercase;
   color: #6c0287;
   border: 3px solid transparent;
+  transition: all 0.3s;
 }
 
 .booking__btn:hover {

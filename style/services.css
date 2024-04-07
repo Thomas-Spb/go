@@ -27,4 +27,8 @@
 
 .services__wrap {
   position: relative;
+  transition: transform 0.3s;
+}
+.services__wrap:hover {
+  transform: scale(1.1);
 }

@@ -74,6 +74,10 @@
   background-image: url('../img/svg/envelope.svg');
 }
 
+.contacts__icon {
+  transition: all 0.4s;
+}
+
 .contacts__icon:hover {
   color: #eadeed;
 }
