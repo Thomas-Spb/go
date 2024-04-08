@@ -40,27 +40,27 @@
 }
 
 .faq__item:nth-child(1n)::after {
-  content: url(/img/faq/p.svg);
+  content: url(../img/faq/p.svg);
   transition: content 0.2s ease;
 }
 
 .faq__item:nth-child(1n):hover::after {
-  content: url(/img/faq/p-hover.svg);
+  content: url(../img/faq/p-hover.svg);
 }
 
 .faq__item:nth-child(1n):active::after {
-  content: url(/img/faq/p-active.svg);
+  content: url(../img/faq/p-active.svg);
 }
 
 .faq__item:nth-child(2n)::after {
-  content: url(/img/faq/w.svg);
+  content: url(../img/faq/w.svg);
   transition: content 0.2s ease;
 }
 
 .faq__item:nth-child(2n):hover::after {
-  content: url(/img/faq/w-hover.svg);
+  content: url(../img/faq/w-hover.svg);
 }
 
 .faq__item:nth-child(2n):active::after {
-  content: url(/img/faq/w-active.svg);
+  content: url(../img/faq/w-active.svg);
 }

@@ -34,6 +34,7 @@
 }
 
 .header__btn:active {
+  padding: 13px 33px;
   border: 1px solid #000;
   background: #640aa3;
 }
