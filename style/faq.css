@@ -32,35 +32,35 @@
 .faq__item::after {
   content: '';
   position: absolute;
-  top: 23px;
-  right: 30px;
   width: 46px;
   height: 46px;
-  /* background-image: url(./img/faq/open.svg); */
+  top: 50px;
+  right: 25px;
+  transform: translateY(-50%);
 }
 
 .faq__item:nth-child(1n)::after {
-  content: url(../img/faq/p.svg);
-  transition: content 0.2s ease;
+  background-image: url('../img/faq/p.svg');
+  transition: background-image 0.3s ease;
 }
 
 .faq__item:nth-child(1n):hover::after {
-  content: url(../img/faq/p-hover.svg);
+  background-image: url(../img/faq/p-hover.svg);
 }
 
 .faq__item:nth-child(1n):active::after {
-  content: url(../img/faq/p-active.svg);
+  background-image: url(../img/faq/p-active.svg);
 }
 
 .faq__item:nth-child(2n)::after {
-  content: url(../img/faq/w.svg);
-  transition: content 0.2s ease;
+  background-image: url(../img/faq/w.svg);
+  transition: background-image 0.3s ease;
 }
 
 .faq__item:nth-child(2n):hover::after {
-  content: url(../img/faq/w-hover.svg);
+  background-image: url(../img/faq/w-hover.svg);
 }
 
 .faq__item:nth-child(2n):active::after {
-  content: url(../img/faq/w-active.svg);
+  background-image: url(../img/faq/w-active.svg);
 }

@@ -137,7 +137,18 @@
 .booking__qty {
   flex-basis: 100%;
   height: 52px;
+  padding-left: 15px;
 }
+
+.booking__qty:focus {
+  outline: 2px solid #cd06ff;
+}
+
+.booking__qty::placeholder {
+  font-size: 18px;
+  color: #211e1e;
+}
+
 .booking__wrap,
 .booking__fio,
 .booking__contacts {
