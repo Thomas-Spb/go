@@ -23,8 +23,9 @@
   line-height: 136%;
   text-transform: uppercase;
   color: #fff;
-  outline: none;
+  outline: 1px transparent;
   transition: all 0.3s linear;
+  /* min-width: 286px; */
 }
 
 .header__btn:hover,
@@ -34,7 +35,7 @@
 }
 
 .header__btn:active {
-  padding: 13px 33px;
-  border: 1px solid #000;
+  border: 3px solid transparent;
+  outline: 1px solid #000;
   background: #640aa3;
 }

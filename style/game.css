@@ -92,10 +92,11 @@
   background-position: center;
   background-size: cover;
   left: 50%;
-  transform: translateY(-30%);
+  transform: translateY(-50%);
   z-index: 13;
   animation: btndone 2s;
   animation-iteration-count: infinite;
+  transition: all 1s;
 }
 
 .game__btn-down:hover {
