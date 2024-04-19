@@ -1,7 +1,7 @@
 .footer {
   padding-top: 50px;
   padding-bottom: 10px;
-  background: linear-gradient(180deg, #1b1a1b 0%, #370a37 100%);
+  background: var(--footer-bg);
 }
 
 .contacts {
@@ -79,16 +79,16 @@
 }
 
 .contacts__icon:hover {
-  color: #eadeed;
+  color: var(--white-darkened);
 }
 
 .contacts__icon:focus {
-  color: #eadeed;
-  outline: 1px solid #cd06ff;
+  color: var(--white-darkened);
+  outline: 1px solid var(--light-purple);
 }
 
 .contacts__icon:active {
-  color: #cd06ff;
+  color: var(--light-purple);
 }
 
 .footer__designer {

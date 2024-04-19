@@ -11,18 +11,18 @@
 }
 
 .header__logo {
-  fill: #fff;
+  fill: var(--white);
 }
 
 .header__btn {
-  border: 3px solid #cd06ff;
+  border: 3px solid var(--light-purple);
   border-radius: 10px;
   padding: 12px 32px;
   font-weight: 700;
   font-size: 22px;
   line-height: 136%;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--white);
   outline: 1px transparent;
   transition: all 0.3s linear;
   /* min-width: 286px; */
@@ -30,12 +30,12 @@
 
 .header__btn:hover,
 .header__btn:focus {
-  border: 3px solid #6c0287;
-  background: #6c0287;
+  border: 3px solid var(--dark-purple);
+  background: var(--dark-purple);
 }
 
 .header__btn:active {
   border: 3px solid transparent;
-  outline: 1px solid #000;
-  background: #640aa3;
+  outline: 1px solid var(--black);
+  background: var(--violet);
 }

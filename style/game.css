@@ -50,7 +50,7 @@
   display: block;
   font-weight: 900;
   font-size: 100px;
-  color: #cd06ff;
+  color: var(--light-purple);
 }
 
 .game__text-purple {
@@ -58,18 +58,18 @@
   font-weight: 900;
   font-size: 75px;
   font-variant: all-small-caps;
-  color: #cd06ff;
+  color: var(--light-purple);
 }
 
 .game__btn {
   border-radius: 10px;
   padding: 25px 69px;
-  background: #6c0287;
+  background: var(--dark-purple);
   font-weight: 700;
   font-size: 26px;
   line-height: 115%;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--white);
   box-shadow: 0px 0px 12px 5px rgba(108, 2, 135, 0.6);
   outline: none;
   transition: all 0.3s linear;
@@ -77,10 +77,10 @@
 
 .game__btn:hover,
 .game__btn:focus {
-  background: #840aa3;
+  background: var(--purple);
 }
 .game__btn:active {
-  background: #640aa3;
+  background: var(--violet);
 }
 
 .game__btn-down {
@@ -104,7 +104,7 @@
 }
 
 .game__btn-down:focus {
-  outline: 1px solid #cd06ff;
+  outline: 1px solid var(--light-purple);
 }
 
 .game__btn-down:active {

@@ -62,7 +62,7 @@
 ::after {
   font-size: 44px;
   font-weight: 700;
-  color: #6c0287;
+  color: var(--dark-purple);
   position: absolute;
 }
 

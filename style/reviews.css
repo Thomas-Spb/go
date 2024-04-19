@@ -15,6 +15,21 @@
   margin-right: 20px;
   /* float: left; */
 }
+
+.reviews__gradient {
+  position: relative;
+}
+
+.reviews__gradient::after {
+  z-index: 10;
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  background: var(--review-gradient);
+}
+
 .reviews__image {
   display: block;
   margin-bottom: 11px;

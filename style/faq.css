@@ -12,7 +12,7 @@
 
 .faq__item {
   position: relative;
-  background-color: #fff;
+  background-color: var(--white);
   color: #1c1a1a;
   font-weight: 700;
   font-size: 24px;
@@ -26,7 +26,7 @@
 
 .faq__item:nth-child(even) {
   background-color: #440f51;
-  color: #fff;
+  color: var(--white);
 }
 
 .faq__item::after {
