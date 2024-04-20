@@ -131,7 +131,7 @@
 .booking__time {
   flex-basis: 48%;
   height: 52px;
-  padding-left: 15px;
+  /* padding-left: 15px; */
 }
 
 .booking__qty {
